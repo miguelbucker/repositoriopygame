@@ -7,8 +7,8 @@ imagemRaio = pygame.image.load("img/lazer.png")
 imagemFundo = pygame.image.load("img/espaco.png")
 
 # Carregando constantes
-LARGURAJANELA = 600
-ALTURAJANELA = 600
+LARGURAJANELA = 1920
+ALTURAJANELA = 1080
 CORTEXTO = (255, 255, 255) # Branco
 QPS = 40 # quadros por segundo
 TAMMINIMO = 10 # tamanho mínimo do asteroide
@@ -85,7 +85,7 @@ fonte = pygame.font.Font(None, 48)
 # Configurando o som.
 somFinal = pygame.mixer.Sound("mp3/som-final.mp3")
 somRecorde = pygame.mixer.Sound("mp3/recorde.mp3")
-somTiro = pygame.mixer.Sound("mp3/laser.mp3")
+somTiro = pygame.mixer.Sound("mp3/tiro.mp3")
 pygame.mixer.music.load("mp3/musica-fundo.mp3")
 
 # Tela de inicio.
